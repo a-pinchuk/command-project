@@ -1,0 +1,151 @@
+.footer__container{
+    background-color: getColor('background');
+    padding: 90px 190px;
+}
+
+.footer__logo{
+    fill: getColor('white');
+    margin-bottom: 60px;
+}
+
+
+// FOOTER MIDDLE PART
+.footer__middle{
+    display: flex;
+}
+
+.footer__column {
+    display: flex;
+    width: 525px;
+}
+
+// FIRSTCOLUMN MENU
+.footer__firstcolumn{
+    margin-right: 85px;
+}
+
+.firstcolumn__link {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.48;
+    /* identical to box height, or 148% */
+    color: getColor('white');
+}
+
+.firstcolumn__item:not(:last-child){
+    margin-bottom: 9px;
+}
+
+// SECONDCOLUMN MENU
+.secondcolumn__link {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.48;
+    /* identical to box height, or 148% */
+    color: getColor('white');
+}
+
+.secondcolumn__item:not(:last-child){
+    margin-bottom: 9px;
+}
+
+
+// JOIN FORM
+.join__icon {
+    fill: getColor('white');
+}
+
+.footer__title{
+    margin-bottom: 1px;
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+    color: getColor('white');
+}
+
+.footer__text{
+    margin-bottom: 66px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    /* identical to box height, or 140% */
+    color: getColor('white');
+}
+
+// INPUT
+.footer__form{
+    display: flex;
+}
+
+.footer__join{
+    margin-left: 30px;
+}
+
+.footer__input {
+    margin-right: 28px;
+    width: 293px;
+    height: 53px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid getColor('white');
+}
+
+.footer__button {
+    width: 191px;
+    height: 53px;
+
+    background-color: transparent;
+    border: 1px solid getColor('white');
+
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    /* identical to box height, or 118% */
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: getColor('white');
+}
+
+// SOCIAL 
+
+.footer__social{
+    display: flex;
+    align-items: baseline;
+    margin-top: 40px;
+}
+
+.social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height, or 164% */
+
+    letter-spacing: 0.10998px;
+
+    color: #FFFFFF;
+    margin-right: 277px;
+}
+
+.social__link{
+    margin-right: 27px;
+}

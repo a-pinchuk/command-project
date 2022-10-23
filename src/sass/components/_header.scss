@@ -1,5 +1,5 @@
 .header__deal {
-    background-color: #161F49;
+    background-color: getColor('background');
     margin: 0;
     height: 33px;
     padding-top: 5px;
@@ -10,7 +10,6 @@
     font-size: 14px;
     line-height: 1.64;
 /* identical to box height, or 164% */
-
     text-align: center;
     letter-spacing: 0.10998px;
     color: getColor('white');
@@ -31,9 +30,7 @@
 }
 
 .nav__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex();
 }
 
 .nav__item:not(:last-child) {
@@ -54,13 +51,11 @@
     text-align: center;
     letter-spacing: 0.10998px;
 
-    color: #404040;
+    color: getColor('primary-text-color');
 }
 
 .header__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex();
 
     height: 80px;
     width: 166px;
@@ -73,7 +68,6 @@
     font-size: 14px;
     line-height: 1.79;
     /* identical to box height, or 179% */
-
     letter-spacing: 0.10998px;
     text-transform: uppercase;
 }

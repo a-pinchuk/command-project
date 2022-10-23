@@ -2,4 +2,16 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+
+    @include media-min(mobile){
+        width: 480px;
+    }
+
+    @include media-min(tablet){
+        width: 768px;
+    }
+
+    @include media-min(desktop){
+        width: 1440px;
+    }
 }
