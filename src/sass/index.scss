@@ -1,3 +1,10 @@
-@import './common';
-@import './example';
-@import './header';
+@import 'https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap';
+
+@import "./base/colors";
+@import "./base/reset";
+@import "./base/fonts";
+
+@import './components/container';
+
+@import './components/common';
+@import './components/header';
