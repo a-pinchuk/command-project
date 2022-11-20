@@ -1,0 +1,84 @@
+.connection {
+   text-align: center;
+}
+
+.connection-text {
+   margin-top: 66px;
+   margin-bottom: 21px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.15;
+   text-align: center;
+   color: getColor('primary-text-color');
+   
+}
+
+.conaction-svg {
+   margin-bottom: 28px;
+}
+
+.connection-link {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.15;
+   text-align: center;
+   text-transform: uppercase;
+   color: getColor('primary-text-color');
+}
+
+.connection-block {
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 120px;
+   border-bottom: 1px solid getColor('primary-text-color');
+   width: 78px;
+   text-align: center;
+}
+
+.connection-title {
+   margin-bottom: 44px;
+   width: 729px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 50px;
+   line-height: 1.2;
+   text-align: center;
+   color: getColor('primary-text-color');
+}
+
+.connection-info {
+   margin-bottom: 78px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 736px;
+}
+
+.connection-button {
+   margin-left: auto;
+   margin-right: auto;
+   padding: 17px 37px 21px 37px;
+   background-color: getColor('button-color');
+   width: 244px;
+}
+
+.link {
+      font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 1;
+         text-align: center;
+         letter-spacing: 0.11px;
+         text-transform: uppercase;
+         color: getColor('white');
+}
+
+.connection-img {
+   margin-left: auto;
+   margin-right: auto;
+}
