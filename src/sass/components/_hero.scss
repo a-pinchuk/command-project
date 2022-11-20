@@ -1,0 +1,47 @@
+.hero {
+  height: 687px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../images/familyfirst.jpg);
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 270px;
+  text-align: center;
+}
+
+.hero-title {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.11;
+  color: getColor('white');
+}
+
+.hero-text {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.38;
+  color: getColor('white');
+}
+
+.hero-button {
+  padding: 16px 37px 21px 37px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.96;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+color: getColor('white');
+border-color: getColor('white');
+margin-bottom: 87px;
+}
+
+.wifi {
+margin-left: auto;
+margin-right: auto;
+}
