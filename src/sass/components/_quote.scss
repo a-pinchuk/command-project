@@ -1,8 +1,14 @@
 .quote {
-  text-align: center;
-  align-items: center;
   background-color: #404040;
-  padding: 200px 309px 205px 308px;
+  height: 580px;
+}
+.quote .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 284px;
 }
 .quote-txt {
   text-align: center;
@@ -10,7 +16,9 @@
   font-size: 42px;
   line-height: 0.98;
   vertical-align: top;
-  color: #ffffff;
-  margin-bottom: 48.9px;
+  color: getColor('white');
   width: 823px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48.9px;
 }
