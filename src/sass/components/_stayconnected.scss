@@ -4,9 +4,15 @@
   background-image: url(../images/familysecond.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 111px 422px 249px 422px;
-  text-align: center;
 }
+.stayconnected .container {
+    padding-top: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .stayconnected-txt {
   font-style: normal;
   font-weight: 400;
