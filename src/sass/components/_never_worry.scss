@@ -1,0 +1,46 @@
+.never-worry__header {
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: getColor('primary-text-color');
+  font-weight: 400;
+  margin-top: 116px;
+}
+
+.never-worry__box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 84px;
+  margin: 84px 234px 120px;
+}
+
+.never-worry__block {
+  position: relative;
+  width: 206px;
+  padding-bottom: 48px;
+
+  &__svg {
+    margin-top: 0;
+  }
+}
+
+.never-worry__title {
+  margin-top: 33px;
+  margin-bottom: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.15;
+  color: getColor('primary-text-color');
+}
+
+.never-worry__link {
+  position: absolute;
+  bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  color: getColor('primary-text-color');
+  border-bottom: 1px solid getColor('primary-text-color');
+}

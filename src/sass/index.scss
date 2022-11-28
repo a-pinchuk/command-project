@@ -1,12 +1,12 @@
 @import 'https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap';
 
 // BASE
-@import "./base/colors";
-@import "./base/reset";
-@import "./base/fonts";
+@import './base/colors';
+@import './base/reset';
+@import './base/fonts';
 
 // UTILS
-@import "./utils/mixin";
+@import './utils/mixin';
 
 // COMPONENTS
 @import './components/container';
@@ -17,4 +17,5 @@
 @import './components/connection';
 @import './components/quote';
 @import './components/stayconnected';
+@import './components/never_worry';
 @import './components/footer';
