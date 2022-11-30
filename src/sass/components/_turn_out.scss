@@ -4,7 +4,7 @@
   font-size: 50px;
   line-height: 1.2;
   text-align: center;
-  color: #404040;
+  color: getColor('primary-text-color');
   margin-top: 117px;
 }
 
@@ -29,21 +29,21 @@
   font-size: 14px;
   line-height: 1.32;
   text-transform: uppercase;
-  color: #999999;
+  color: getColor('color-name');
   padding-bottom: 6px;
-  border-bottom: 2px solid #dedede;
+  border-bottom: 2px solid getColor('border-color');
 }
 
 .current {
-  color: #2468ff;
-  border-bottom: 2px solid #2468ff;
+  color: getColor('button-color');
+  border-bottom: 2px solid getColor('button-color');
 }
 
 .turn-out__text {
   padding-top: 35px;
   font-size: 36px;
   line-height: 1.45;
-  color: #404040;
+  color: getColor('primary-text-color');
 }
 
 .turn-out__name {
@@ -51,7 +51,7 @@
   margin-bottom: 14px;
   font-size: 18px;
   line-height: 1.4;
-  color: #646565;
+  color: getColor('color-grey');
 }
 
 .turn-out__button {
@@ -63,8 +63,8 @@
   text-align: center;
   letter-spacing: 0.11px;
   text-transform: uppercase;
-  color: #ffffff;
-  background: #2468ff;
+  color: getColor('white');
+  background: getColor('button-color');
   cursor: pointer;
 }
 
@@ -73,7 +73,7 @@
   font-size: 18px;
   line-height: 1.4;
   text-align: center;
-  color: #404040;
+  color: getColor('primary-text-color');
 }
 
 .turn-out__button--long {
@@ -85,8 +85,8 @@
   line-height: 1.08;
   letter-spacing: 0.11px;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #2468ff;
+  color: getColor('white');
+  background-color: getColor('button-color');
   border: none;
 }
 
@@ -94,7 +94,6 @@
   display: flex;
   justify-content: space-evenly;
   margin: 120px auto;
-  gap: 75px;
 }
 
 .turn-out__benefits > li {
@@ -104,5 +103,5 @@
 
 .turn-out__svg {
   margin-right: 18px;
-  fill: #404040;
+  fill: getColor('primary-text-color');
 }
