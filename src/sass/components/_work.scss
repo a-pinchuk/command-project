@@ -1,0 +1,58 @@
+.work {
+  text-align: center;
+  background-color: getColor('background');
+}
+
+.work-title {
+  display: block;
+  width: 804px;
+  margin-bottom: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  color: getColor('' white '');
+}
+
+.work-text {
+  display: block;
+  width: 710px;
+  margin-bottom: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.19;
+  text-align: center;
+  color: getColor('' white '');
+}
+
+.work-button {
+  width: 220px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 17px 43px 21px 43px;
+  background-color: getColor('button-color');
+}
+
+.work-link {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: getColor('white');
+}
+
+.work-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 124px;
+}
