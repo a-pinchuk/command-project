@@ -1,0 +1,121 @@
+// .container {
+//     margin: 0 auto;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+
+.shop{
+    /* height: 1179px; */
+    // width: 1440px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/twobuttons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:580px ;
+    padding-bottom: 79px; 
+    // text-align: center;
+
+    /* display: flex; */
+}
+.shop-block{display: flex;
+    margin-left: 188px;}
+
+.shop-menu{height: 408px;
+    margin-right: 216px;
+    /* border: 1px solid #FFFFFF; */
+}
+.shop-menu:last-child {
+    margin-right: 0;}
+
+.shop-wifi-block{margin-bottom: 17px;}
+.shop-wifi{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #000000;
+    text-align: center;
+
+    width: 81px;
+    height: 21px;
+
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    margin: 0;
+    
+}
+.shop-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.22;
+
+    color: #FFFFFF;
+    padding-bottom: 13px;
+    margin: 0;
+    text-align: start;
+}
+
+.shop-title-two{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.14;
+
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: start;}
+
+.shop-info{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+
+    color: #FFFFFF;
+    padding-bottom: 33px;
+    margin: 0;
+    text-align: start;}
+
+.shop-button {
+    cursor: pointer;
+    padding: 17px 70px 21px 71px ;
+    background-color: #2468FF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 0px;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-color: transparent;
+  }
+ .shop-nav{
+    width: 154px;
+    text-align: center;
+    padding-bottom:5px;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 89px;  
+}
+
+.shop-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
