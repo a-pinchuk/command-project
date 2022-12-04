@@ -1,11 +1,14 @@
 $colors: (
-    'primary-text-color': #404040,
-    'background': #161F49,
-    'white': #FFFFFF,
-    'black': #000000,
-    'button-color': #2468FF,
+  'primary-text-color': #404040,
+  'background': #161f49,
+  'white': #ffffff,
+  'black': #000000,
+  'button-color': #2468ff,
+  'color-name': #999999,
+  'color-grey': #646565,
+  'border-color': #dedede,
 );
 
 @function getColor($key) {
-    @return map-get($colors, $key);
+  @return map-get($colors, $key);
 }

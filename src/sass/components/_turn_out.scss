@@ -1,0 +1,112 @@
+.turn-out__header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  color: getColor('primary-text-color');
+  margin-top: 117px;
+}
+
+.turn-out__box {
+  display: flex;
+  margin-top: 123px;
+}
+
+.turn-out-div {
+  padding: 0 80px;
+}
+
+.turn-out__list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+}
+
+.turn-out__item {
+  font-size: 14px;
+  line-height: 1.32;
+  text-transform: uppercase;
+  color: getColor('color-name');
+  padding-bottom: 6px;
+  border-bottom: 2px solid getColor('border-color');
+}
+
+.current {
+  color: getColor('button-color');
+  border-bottom: 2px solid getColor('button-color');
+}
+
+.turn-out__text {
+  padding-top: 35px;
+  font-size: 36px;
+  line-height: 1.45;
+  color: getColor('primary-text-color');
+}
+
+.turn-out__name {
+  margin-top: 28px;
+  margin-bottom: 14px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: getColor('color-grey');
+}
+
+.turn-out__info {
+  color: getColor('color-grey');
+}
+
+.turn-out__button {
+  margin-top: 30px;
+  padding: 17px 37px 21px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.08;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: getColor('white');
+  background: getColor('button-color');
+  cursor: pointer;
+}
+
+.turn-out__pre-title {
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  color: getColor('primary-text-color');
+}
+
+.turn-out__button--long {
+  display: block;
+  margin: 45px auto 93px;
+  padding: 17px 66px 21px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.08;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+  color: getColor('white');
+  background-color: getColor('button-color');
+  border: none;
+  cursor: pointer;
+}
+
+.turn-out__benefits {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 120px auto;
+}
+
+.turn-out__benefits > li {
+  display: flex;
+  align-items: center;
+}
+
+.turn-out__svg {
+  margin-right: 18px;
+  fill: getColor('primary-text-color');
+}
