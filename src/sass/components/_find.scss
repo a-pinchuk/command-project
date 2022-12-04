@@ -1,0 +1,66 @@
+.find {
+background-color: getColor('background-second');
+justify-content: center;
+display: flex;
+align-items: center;
+padding-top: 69px;
+padding-bottom: 108px;
+}
+.find-position{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.find__title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    color: getColor('primary-text-color');
+    margin-bottom: 39px;
+}
+
+.find__svg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.find__img {
+    margin-bottom: 78px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.find__block {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.find__text {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.15;
+text-align: center;
+color: getColor('primary-text-color');
+margin-bottom: 39px;
+}
+
+.find__button {
+font-weight: 700;
+font-size: 14px;
+line-height: 1;
+text-align: center;
+letter-spacing: 0.11px;
+text-transform: uppercase;
+color: getColor('white');
+padding: 17px 92px 21px 92px;
+background-color: getColor('color-name');
+border-color: transparent;
+
+margin-left: auto;
+margin-right: auto;
+}
+
