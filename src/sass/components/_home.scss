@@ -1,0 +1,40 @@
+.home {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+ }
+ .home-title {
+    margin-bottom: 44px;
+    width: 782px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    /* or 120% */
+    text-align: center;
+    color: getColor('primary-text-color');
+ }
+ .home-text {
+    margin-bottom: 78px;
+    width:707px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 140% */
+    text-align: center;
+    color: getColor('primary-text-color');
+}
+.home-pic {
+   /* margin-bottom: 120px;*/
+    width: 1008px;
+    height: 569px;
+    margin-left: auto;
+    margin-right: auto;
+ }
